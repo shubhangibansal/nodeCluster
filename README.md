@@ -6,7 +6,7 @@ This repo contains several examples on how Node.js cluster module can be used to
 To clone this repo in your machine:
 
 ```
-git clone https://github.com/behroozk/node-cluster-tutorial.git
+git clone https://github.com/shubhangibansal/nodeCluster.git
 ```
 
 Then, to download all the requirements:
