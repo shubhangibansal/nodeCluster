@@ -1,0 +1,18 @@
+{
+  "name": "nodeCluster",
+  "version": "1.0.0",
+  "description": "A series of examples showing how Node cluster module can be used.",
+  "main": "simple.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.4",
+    "cluster": "~0.7.7",
+    "http": "0.0.0",
+    "net": "~1.0.2",
+    "fs": "0.0.2"
+  }
+}
