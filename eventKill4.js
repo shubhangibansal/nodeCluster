@@ -1,3 +1,4 @@
+//when worker process is killed, it sets the worker fields : KILLED AND SUICIDE to be true
 var cluster = require('cluster');
 var http = require('http');
 
@@ -30,9 +31,4 @@ if (cluster.isMaster) {
   console.log("INSIDE WORKER AND LISTENING ON PORT")
   server.listen(8000);
 
-  process.on('message', function(msg) {
-    if (msg === 'shutdown') {
-      // initiate graceful close of any connections to server
-    }
-  });
 }

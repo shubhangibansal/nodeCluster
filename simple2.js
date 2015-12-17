@@ -8,7 +8,6 @@ if (cluster.isMaster) {
 	}
 } else {
 	http.createServer(function(req, res) {
-		res.writeHead(200);
 		res.end('process ' + process.pid + ' says hello!');
 	}).listen(8000);
 }

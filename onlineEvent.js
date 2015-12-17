@@ -3,16 +3,15 @@
 
 var cluster = require('cluster');
 
-if(cluster.isMaster){
+if (cluster.isMaster) {
 	var worker = cluster.fork();
+} else {
+	console.log(" WORKER PROCESS IS UP AND RUNNING with pid: ", process.pid);
 }
-else{
-	console.log(" WORKER PROCESS IS UP AND RUNNING with pid: ",process.pid);
-}
-cluster.on('fork',function(){
+cluster.on('fork', function() {
 	console.log(" FORK event emitted \n");
 });
 
-cluster.on('online',function(){
+cluster.on('online', function() {
 	console.log(" ONLINE event is emitted means WORKER PROCESS is RUNNING now ");
 });
