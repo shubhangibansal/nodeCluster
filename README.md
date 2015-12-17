@@ -1,3 +1,18 @@
+## Why Node Cluster
+-------------------------------
+
+A single instance of Node.js runs in a single thread. To take advantage of multi-core systems the user will sometimes want to launch a cluster of Node.js processes to handle the load.
+The cluster module allows you to easily create child processes that all share server ports.
+
+
+Basically it is used to increase performance of the node applications.The elegant solution Node.js provides for scaling up the applications is to split a single process into multiple processes or workers, in Node.js terminology sharing the same port.
+
+## How it works
+-------------------------------
+
+A cluster is a pool of similar workers running under a parent Node process. Workers are spawned using the fork() method.This means workers can share server handles and use `IPC (Inter-process communication) to communicate with the parent Node process`.We can create an arbitrary number of workers in your master process.By default incoming connections are distributed in a `round-robin approach among workers` (except in Windows). 	
+
+
 ## Node Cluster Module Examples
 -------------------------------
 
