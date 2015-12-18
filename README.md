@@ -35,9 +35,10 @@ Here is a list of all the examples in this repo:
 1. `workerfork1.js`: example of fork() event
 2. `simple2.js`: contains a simple use of cluster module
 3. `onlineEvent.js`: demonstrates the difference between fork() event and online event
-4. `messageEvent3.js`: showcasing how exactly the messages are exchanged between the master and worker processes
+4. `messageEvent3.js`: showcasing how exactly the messages are exchanged between the master and worker process
 5. `listeningEvent.js`: showing how the server and the Master process both listens when listen() is called
 6. `eventKill4.js`:  example to show how the processes are killed and what happens exactly thereafter
 7. `eventdisconnect5.js`: demonstrates how the process gets diconnected and dies gracefully
 8. `performanceWithOneProcess.js`: depicting single process handling and responding to all requests
 9. `express_performance.js`: depicting increase in performance when cluster module is used
+10. `multiprocessCommunication.js`: shows how communication happens between multiple worker processes and the 			master process
