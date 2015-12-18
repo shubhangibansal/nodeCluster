@@ -4,7 +4,8 @@
 
 var cluster = require('cluster');
 var app = require('express')();
-var numCPUs = require('os').cpus().length;
+var numCPUs = require('os').cpus().length; //returns no. of cpu's cores using nodejs os module.
+// cpus() returns an array of CPU cores.
 
 
 if (cluster.isMaster) {
