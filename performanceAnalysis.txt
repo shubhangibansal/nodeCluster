@@ -1,0 +1,164 @@
+1) Preparing 1 concurrent users for battle
+
+PerformanceWithOneProcess:
+
+	Lifting the server siege...      done.
+
+	Transactions:		         109 hits
+	Availability:		      100.00 %
+	Elapsed time:		       58.96 secs
+	Data transferred:	        0.00 MB
+	Response time:		        0.00 secs
+	Transaction rate:	        1.85 trans/sec
+	Throughput:		        0.00 MB/sec
+	Concurrency:		        0.00
+	Successful transactions:         109
+	Failed transactions:	           0
+	Longest transaction:	        0.01
+	Shortest transaction:	        0.00
+
+
+
+No.of req per sec = 1.85
+
+express_performance:
+
+	Lifting the server siege...      done.
+
+	Transactions:		         113 hits
+	Availability:		      100.00 %
+	Elapsed time:		       60.25 secs
+	Data transferred:	        0.00 MB
+	Response time:		        0.00 secs
+	Transaction rate:	        1.88 trans/sec
+	Throughput:		        0.00 MB/sec
+	Concurrency:		        0.00
+	Successful transactions:         113
+	Failed transactions:	           0
+	Longest transaction:	        0.01
+	Shortest transaction:	        0.00
+
+No.of req per sec = 1.88
+
+
+2) Preparing 2 concurrent users for battle
+
+PerformanceWithOneProcess:
+
+	Lifting the server siege...      done.
+
+	Transactions:		         186 hits
+	Availability:		      100.00 %
+	Elapsed time:		       51.31 secs
+	Data transferred:	        0.01 MB
+	Response time:		        0.00 secs
+	Transaction rate:	        3.63 trans/sec
+	Throughput:		        0.00 MB/sec
+	Concurrency:		        0.00
+	Successful transactions:         186
+	Failed transactions:	           0
+	Longest transaction:	        0.01
+	Shortest transaction:	        0.00
+
+No.of req per sec = 3.63
+
+express_performance:
+
+	Lifting the server siege...      done.
+
+	Transactions:		         233 hits
+	Availability:		      100.00 %
+	Elapsed time:		       59.78 secs
+	Data transferred:	        0.01 MB
+	Response time:		        0.00 secs
+	Transaction rate:	        3.90 trans/sec
+	Throughput:		        0.00 MB/sec
+	Concurrency:		        0.00
+	Successful transactions:         233
+	Failed transactions:	           0
+	Longest transaction:	        0.01
+	Shortest transaction:	        0.00
+
+No.of req per sec = 3.90
+
+3) Preparing 4 concurrent users for battle
+
+PerformanceWithOneProcess:
+
+	Lifting the server siege...      done.
+
+	Transactions:		         409 hits
+	Availability:		      100.00 %
+	Elapsed time:		       53.56 secs
+	Data transferred:	        0.01 MB
+	Response time:		        0.00 secs
+	Transaction rate:	        7.64 trans/sec
+	Throughput:		        0.00 MB/sec
+	Concurrency:		        0.01
+	Successful transactions:         409
+	Failed transactions:	           0
+	Longest transaction:	        0.01
+	Shortest transaction:	        0.00
+
+No.of req per sec = 7.64
+
+
+express_performance:
+
+	Lifting the server siege...      done.
+
+	Transactions:		         524 hits
+	Availability:		      100.00 %
+	Elapsed time:		       62.56 secs
+	Data transferred:	        0.02 MB
+	Response time:		        0.00 secs
+	Transaction rate:	        8.38 trans/sec
+	Throughput:		        0.00 MB/sec
+	Concurrency:		        0.01
+	Successful transactions:         524
+	Failed transactions:	           0
+	Longest transaction:	        0.02
+	Shortest transaction:	        0.00
+
+No.of req per sec = 8.38
+
+4) Preparing 8 concurrent users for battle
+
+PerformanceWithOneProcess:
+
+	Lifting the server siege...      done.
+
+	Transactions:		         963 hits
+	Availability:		      100.00 %
+	Elapsed time:		       60.76 secs
+	Data transferred:	        0.03 MB
+	Response time:		        0.00 secs
+	Transaction rate:	       15.85 trans/sec
+	Throughput:		        0.00 MB/sec
+	Concurrency:		        0.01
+	Successful transactions:         963
+	Failed transactions:	           0
+	Longest transaction:	        0.01
+	Shortest transaction:	        0.00
+
+
+No.of req per sec = 15.85
+
+express_performance:
+
+	Lifting the server siege...      done.
+
+	Transactions:		         980 hits
+	Availability:		      100.00 %
+	Elapsed time:		       57.38 secs
+	Data transferred:	        0.04 MB
+	Response time:		        0.00 secs
+	Transaction rate:	       17.08 trans/sec
+	Throughput:		        0.00 MB/sec
+	Concurrency:		        0.01
+	Successful transactions:         980
+	Failed transactions:	           0
+	Longest transaction:	        0.01
+	Shortest transaction:	        0.00
+
+No.of req per sec = 17.08

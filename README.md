@@ -39,3 +39,5 @@ Here is a list of all the examples in this repo:
 5. `listeningEvent.js`: showing how the server and the Master process both listens when listen() is called
 6. `eventKill4.js`:  example to show how the processes are killed and what happens exactly thereafter
 7. `eventdisconnect5.js`: demonstrates how the process gets diconnected and dies gracefully
+8. `performanceWithOneProcess.js`: depicting single process handling and responding to all requests
+9. `express_performance.js`: depicting increase in performance when cluster module is used
